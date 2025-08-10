@@ -195,4 +195,18 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const tealLavenderTheme = {
+  body: "#ffffff",
+  text: "#014d4e", // deep teal
+  expTxtColor: "#000000",
+  highlight: "#c8b6ff", // pastel lavender
+  dark: "#013a40",
+  secondaryText: "#014d4e",
+  imageHighlight: "#036666",
+  compImgHighlight: "#ede7f6", // soft lavender white
+  jacketColor: "#ede7f6",
+  headerColor: "#ede7f6",
+  splashBg: "#036666",
+};
+
+export const chosenTheme = materialTealTheme;

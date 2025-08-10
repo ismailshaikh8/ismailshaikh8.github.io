@@ -169,7 +169,10 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) => console.log(JSON.stringify(error)));
+  .catch((error) => {
+    console.error("Fetch failed:", error);
+  });
+  
 
 fetch(baseUrl, {
   method: "POST",
